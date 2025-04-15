@@ -3,7 +3,7 @@
 
 Ссылка на опубликованный [проект](https://queenarizona.github.io/Trello/).
 
-[![Build status](https://ci.appveyor.com/api/projects/status/3qfuoci14kn75v0l?svg=true)](https://ci.appveyor.com/project/QueenArizona/trello)
+[![Build status](https://ci.appveyor.com/api/projects/status/m1xfun3gbttrgqq0?svg=true)](https://ci.appveyor.com/project/QueenArizona/trello)
 
 Основная задача проекта - сделать упрощённую систему управления текстовыми задачами, применив подход, который используется в [Trello](https://trello.com):
 
