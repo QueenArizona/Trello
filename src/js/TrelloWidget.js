@@ -36,7 +36,7 @@ class TrelloWidget {
    */
   action() {
     this.container.addEventListener('click', (event) => {
-      const { target }  = event;
+      const { target } = event;
 
       const action = target.closest('.tasks__action');
       if (action) {
@@ -71,7 +71,7 @@ class TrelloWidget {
     });
 
     this.container.addEventListener('mousedown', (event) => {
-      const { target }  = event;
+      const { target } = event;
 
       if (target.classList.contains('card')) {
         event.preventDefault();
@@ -99,7 +99,7 @@ class TrelloWidget {
       event.preventDefault();
       if (this.draggedElement) return;
 
-      const { target }  = event;
+      const { target } = event;
 
       if (target.classList.contains('card')) {
         target.classList.add('active');
@@ -114,7 +114,7 @@ class TrelloWidget {
     this.container.addEventListener('mouseout', (event) => {
       event.preventDefault();
 
-      const { target, relatedTarget }  = event;
+      const { target, relatedTarget } = event;
 
       if (target.classList.contains('card') && !relatedTarget.classList.contains('card__remove')) {
         target.classList.remove('active');
